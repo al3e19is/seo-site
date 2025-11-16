@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 import { articles } from "@/data/articles";
 
 // ⚠ 部署後記得改成你真實 domain，例如：https://3kingdoms.alexchiu.com
-const BASE_URL = "https://example.com";
+const BASE_URL = "https://three-kingdoms-seo-site-jdbl.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
